@@ -13,8 +13,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <img src="../public/images/header_LMS.jpg"/>
-            <h3 className="">Created by Jeff</h3>
+          <img class="logo" src="/images/header_LMS.jpg" alt="LOGO"/>            
           </header>
           <Switch>
             <Route path="/" exact component={ShirtList}/>

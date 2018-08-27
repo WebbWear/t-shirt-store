@@ -13,6 +13,7 @@ class PhotoList extends Component {
         } else {
             return (
                 <div>
+                    
                     <header>{_categoryData.title}</header>
                     <p>{_categoryData.description}</p>
                     <section>
