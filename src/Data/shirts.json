@@ -1,14 +1,9 @@
    
    {
     "shirts": {
-      "title": "Shirts",
+      "title": "",
       "photos": [
-        {
-            "logo": "/images/header_LMS.jpg" 
-        },   
-        
-
-        {
+      {
             "title": "YOU'RE A HUMAN",
             "description": "So always remember, You're a human, not a designer. Don't get too high on yourself.",
             "imageURL": "https://2flrd9yhlj-flywheel.netdna-ssl.com/wp-content/uploads/2018/03/yondrHumanDesignerLIVE.jpg",

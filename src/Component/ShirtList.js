@@ -1,26 +1,32 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
-import shirts from '../Data/shirts.json'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import shirts from "../Data/shirts.json";
 
 class ShirtList extends Component {
-
-    componentDidMount() {
-        console.log({ data: shirts, keys: Object.keys(shirts) })
-    }
-    render() {
-        return (
-            <div className="body">
-
-                {Object.keys(shirts).map(( shirtKey, i ) => {
-                    return <section className="image-card" key={i}>
-                        <header><Link to={`/${shirtKey}`}>{shirts[shirtKey].title}</Link></header>
-                        <p>{shirts[shirtKey].description}</p>
-                        <img src={shirts[shirtKey].photos[0].imageURL} alt={shirts[shirtKey].photos[0].title} />
-                    </section>
-                })}
-            </div>
-        );
-    }
+  componentDidMount() {
+    console.log({ data: shirts, keys: Object.keys(shirts) });
+  }
+  render() {
+    return (
+      <div className="body">
+        <h1> Hello world </h1>
+        <section>
+          {shirts.shirts.photos.map((shirt, i) => {
+            return (
+              <section className="image-card" key={i}>
+                <Link to={`/${i}`}>
+                  <header>{shirt.title}</header>
+                  <p>{shirts.description}</p>
+                  <img src={shirt.imageURL} alt={shirts.title} />
+                </Link>
+              </section>
+            );
+          })}
+          ;
+        </section>
+      </div>
+    );
+  }
 }
 
 export default ShirtList;
