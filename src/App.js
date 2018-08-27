@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 import './App.css';
+
+import ShirtList from './Component/ShirtList';
+import PhotoList from './Component/PhotoList';
+import ShirtDetail from './Component/ShirtDetail';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <h1 className="App-title">LOGO</h1>
+            <h3 className="">Created by Jeff</h3>
+          </header>
+          <Switch>
+            <Route path="/" exact component={ShirtList}/>
+            <Route path="/:category" exact component={PhotoList}/>
+            <Route path="/:category/:index" exact component={ShirtDetail}/>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

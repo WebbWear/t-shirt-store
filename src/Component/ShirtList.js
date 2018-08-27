@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-import hobbies from '../Data/shirts.json'
+import shirts from '../Data/shirts.json'
 
 class ShirtList extends Component {
 

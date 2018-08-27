@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import hobbies from '../Data/shirts.json'
+import shirts from '../Data/shirts.json'
 
 
 class ShirtDetail extends Component {
