@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">LOGO</h1>
+            <img src="../public/images/header_LMS.jpg"/>
             <h3 className="">Created by Jeff</h3>
           </header>
           <Switch>

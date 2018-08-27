@@ -3,7 +3,11 @@
     "shirts": {
       "title": "Shirts",
       "photos": [
+        {
+            "logo": "/images/header_LMS.jpg" 
+        },   
         
+
         {
             "title": "YOU'RE A HUMAN",
             "description": "So always remember, You're a human, not a designer. Don't get too high on yourself.",
