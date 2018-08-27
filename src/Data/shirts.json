@@ -1,0 +1,56 @@
+   
+   {
+    "shirts": {
+      "title": "Shirts",
+      "photos": [
+        
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        },
+
+        {
+            "title": "Panda Waving",
+            "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+            "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
+            "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        }
+    ]
+    }}
