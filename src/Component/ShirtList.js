@@ -9,7 +9,6 @@ class ShirtList extends Component {
   render() {
     return (
       <div className="body">
-        <h1> Hello world </h1>
         <section>
           {shirts.shirts.photos.map((shirt, i) => {
             return (
